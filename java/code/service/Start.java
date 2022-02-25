@@ -18,5 +18,3 @@ class Sample {
 	@RequestMapping("/show/sample")
 	int showSample() { return 12345; }
 }
-// https://codestar.work/spring.pdf
-// https://codestar.work/spring-boot.pdf
