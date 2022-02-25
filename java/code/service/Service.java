@@ -12,7 +12,7 @@ class Service {
 		b.area = 120.0;
 		b.staff = 15;
 		// b.number = No Needed, Generated Value
-		try {	// https://codestar.work/persistence.txt		
+		try {			
 			var factory = Persistence.createEntityManagerFactory("main");
 			var manager = factory.createEntityManager();
 			manager.getTransaction().begin();
